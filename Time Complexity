@@ -1,0 +1,38 @@
+Time Complexity
+problem->solution 
+Algo-> Function(n):how much time algo take 
+  //n is input size
+
+
+
+  1:no of operations
+  2:highestpower
+  3:neglect coefficient
+
+
+
+  LinearSearch:
+  worst case:
+  1:item is last in element array
+  2:item is not presentin array 
+  timecomplexity: O(n) 
+
+
+
+  int linearSearch(int arr[100000], int n ,int val){
+    
+
+    int j;
+    
+    for( j=0;j<n;j++)
+    {
+        if(arr[j]==val)
+        {return j;}
+    }
+    return -1;
+}
+
+
+
+
+
